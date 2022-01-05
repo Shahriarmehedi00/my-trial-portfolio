@@ -41,3 +41,28 @@ h1{
         background-repeat: no-repeat;
         background-position: right;
     }
+    .box-portion{
+        box-shadow: 10px 10px 40px gray;
+        width: 50%;
+        margin: 10px 30px;
+        padding-left: 15px;
+    }
+    .experience-part{
+        background-image:url(images/exp-bg.png);
+        background-repeat: no-repeat;
+        background-position-y: 70%;}
+
+    #border-right{
+        border-left: 7px solid;
+        border-image: linear-gradient(blue, cyan);
+        border-image-slice: 1;
+        
+    }
+    #border-left{
+        border-left: 7px solid;
+        border-image: linear-gradient(purple, orange);
+        border-image-slice: 1;
+    }
+    footer p{
+        text-align: center;font-weight: 300;
+    }
